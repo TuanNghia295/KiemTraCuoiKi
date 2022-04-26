@@ -64,7 +64,7 @@ function KiemTraDiaChi()
         $("#tbDC").html("Không để trống");
         return false;
     }
-    if(mauKT.test(ht)==true)
+    if(mauKT.test(ht)==true)    
     {
         $("#tbDC").html("*");
         return true;
